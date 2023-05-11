@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.logo {
+  width: 500px;
+  height: auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+}
+
+.logo-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 20px; /* Add space below the logo */
+}
+
+
+.header-title {
+  font-size: 2em;
+  padding: 20px;
+  padding-left: 80px; /* Adjust as needed */
+  width: 100%;
+  text-align: left;
+  background-color: #0065B3;
+  color: #fff;
+}
+
+
+.forex-table {
+  padding: 20px; /* Adjust as needed */
+}

@@ -1,0 +1,13 @@
+table {
+    margin: 50px auto;
+  }
+  
+  th {
+    background-color:  #0065B3;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
