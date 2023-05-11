@@ -1,69 +1,3 @@
-// import React, { useEffect, useState } from 'react';
-// import './App.css';
-// import ForexTable from './ForexTable';
-
-// function App() {
-//   const [data, setData] = useState([]);
-
-//   // Replace the URL with the actual endpoint
-//   useEffect(() => {
-//     fetch('https://your-api-endpoint.com')
-//       .then(response => response.json())
-//       .then(json => setData(json))
-//       .catch(err => console.error('Error fetching data', err));
-//   }, []);
-
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <h1>Forex Exchange</h1>
-//       </header>
-//       <ForexTable data={data} />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-// import React from 'react';
-// import './App.css';
-// import ForexTable from './ForexTable';
-// import BoALogo from './boa_logo.png'; // Assuming your logo is in src folder
-
-// function App() {
-//   const data = [
-//     {
-//       "EventId": 3,
-//       "Ccy": "GBX",
-//       "Tenor": "1M",
-//       "Position": "NA",
-//       "Bid": "NA",
-//       "Ask": "NA",
-//       "QuoteStatus": "EXCEPTION"
-//     },
-//     {
-//       "EventId": 91,
-//       "Ccy": "GBX",
-//       "Tenor": "2M",
-//       "Position": "NA",
-//       "Bid": "NA",
-//       "Ask": "NA",
-//       "QuoteStatus": "EXCEPTION"
-//     }
-//   ];
-
-//   return (
-//     <div className="App">
-//       <div className="header-container">
-//         <img className="logo" src={BoALogo} alt="Bank of America Logo" />
-//       </div>
-//       <ForexTable data={data} />
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
 import './App.css';
 import ForexTable from './ForexTable';
@@ -80,6 +14,7 @@ function App() {
       "Ask": "NA",
       "QuoteStatus": "EXCEPTION"
     },
+    
     {
         "EventId": 25,
         "Ccy": "GBX",
@@ -160,7 +95,7 @@ function App() {
           <img className="logo" src={BoALogo} alt="Bank of America Logo" />
       </div>
       <div className="header-container">
-        <div className="header-title">Forex Exchange</div>
+        <div className="header-title">Forward Pricing Engine</div>
       </div>
       <div className="forex-table">
         <ForexTable data={data} />
@@ -170,5 +105,7 @@ function App() {
 }
 
 export default App;
+
+
 
 
